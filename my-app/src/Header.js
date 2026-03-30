@@ -1,3 +1,5 @@
+import './App.css';
+
 export default function Header() {
-  return  <img src="logo.svg" alt="logo"></img>
+  return  <img src="images/Logo.svg" alt="logo"></img>
 }

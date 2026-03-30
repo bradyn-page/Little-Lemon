@@ -1,3 +1,5 @@
+import './App.css';
+
 export default function Footer () {
   <>
   <img src="/images/Logo.svg" alt="Logo"/>
