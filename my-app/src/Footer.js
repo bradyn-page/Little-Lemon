@@ -1,11 +1,11 @@
-function Footer () {
+export default function Footer () {
   <>
-  <img src="logo.svg"></img>
+  <img src="/logo.svg"></img>
     <ul class="doormat-nav">
     <li><a href="index.html">Home</a></li>
     <li><a href="about.html">About</a></li>
-    <li><a href="Menu.html">Menu</a></li>
-    <li><a href="Reservations.html">Reservations</a></li>
+    <li><a href="menu.html">Menu</a></li>
+    <li><a href="reservations.html">Reservations</a></li>
     <li><a href="order-online.html">Order Online</a></li>
     <li><a href="logIn.html">Log In</a></li>
   </ul>

@@ -1,5 +1,12 @@
 .App {
   text-align: center;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 24px; /* gutter */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 80px; /* margins */
+  
 }
 
 .App-logo {

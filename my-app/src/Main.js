@@ -1,9 +1,7 @@
 function Main () {
  <>
- <meta name="description" content="Homepage for Little Lemon Mediterranean restaurant with specials, testimonials,and a bio about the owners. Refreshing and easy to order Mediterranean food with options to Reserve a table and order online "/>
- <meta name="og:title" content="Little Lemon Mediterranean Restaurant"/>
- <meta name="og:description" content="Refreshing food, quick and easy delivery, online ordering and reservations"/>
- <meta name="og:image" content="logo.svg"/>
+ 
+
 
    <main>
   <section class="Specials">
