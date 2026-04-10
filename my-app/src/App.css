@@ -1,3 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=swap');
+/*Markazi*/
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Markazi+Text:wght@400..700&display=swap');
+/*Karla*/
+
+/*16pt rounded corners on items*/
+:root {
+  /* Font Families */
+  --font-heading: "Markazi Text", serif; /*head, subhead*/
+  --font-leadText: '', sans-serif;
+  --font-body: 'Karla', sans-serif; /*body*/
+
+
+  /* Font Sizes */
+  --size-base: 16px; /*This week's specials, paragraph text, highlight text"*/
+  --size-header: 64px;
+  --size-subheader: 40px;
+    --size-sectionTitle: 20px;
+  --size-leadText: 18px;
+
+  /* Font Weights */
+  --weight-normal: 400;
+  --weight-header: 500; /*medium*, use for header, lead tex, highlight text*/
+  --weight-bold: 700;
+  --weight-extraBold: 800;
+
+  /* Font Line Heights */
+  --paragraph-line-height: 1.5;
+
+  /* Design System Colors */
+  --primary-green: #495E57;
+  --primary-yellow: #F4CE14;
+  --secondary-orange: #EE9972;
+  --secondary-beige: #FBDABB;
+  --highlight-white: #EDEFEE;
+  --highlight-dark:  #333333;
+}
+
 .App {
   text-align: center;
   display: grid;
@@ -44,6 +84,70 @@
   }
 }
 
+/*img {
+  max-width: 50%;   image never exceeds container width 
+  height: auto;      preserves aspect ratio 
+  display: block;    removes extra space below inline images 
+  border-radius: 5%;
+}*/
+.Menu-button{
+  width: 20%;      /* fixed size for logo/icon */
+  height: auto;     /* preserve ratio */
+}
+
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;           /* space between cards */
+  margin: 0 auto;
+  max-width: 1000px;   /* limits row width on desktop */
+  border: solid;
+  font-family: var(--font-body);
+}
+
+.card {
+  box-shadow: 0 0 3px rgb(0, 0, 0, 0.1);
+}
+.card__image {
+  width: 100%;  /* image never exceeds container width */
+  height: auto;     /* preserves aspect ratio */
+  display: block;   /* removes extra space below inline images */
+}
+nav  {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+nav img {
+  display: flex;
+  padding: 10px;
+}
+nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+nav a {
+  text-decoration: none;
+  padding: 10px;
+  
+}
+header{
+  display: flex;
+  background-color: #495E57;
+  margin: auto;
+  padding: 20px;
+}
+
+.header-info {
+  text-align: left;
+}
+header img{
+  border-radius: 10%;
+  padding: 20px;
+}
 /* Tablet */
 @media (min-width: 768px) {
   .container {
